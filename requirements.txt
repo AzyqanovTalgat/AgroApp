@@ -6,4 +6,5 @@ joblib
 scikit-learn
 gunicorn
 xgboost
+lightgbm
 catboost
