@@ -192,7 +192,7 @@ def get_scenarios():
         area_val = data.get("area_ha", -1)
         distinct_crops = data.get("distinct_crops", False)
 
-        N = 100
+        N = 50
         scenarios = []
         for _ in range(N):
             # Формируем признаки для классификации
