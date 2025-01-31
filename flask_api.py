@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Пути к моделям
 CLASSIFICATION_MODEL_PATH = os.path.join(BASE_DIR, "simple_classification_model.pkl")
-REGRESSION_MODEL_PATH = os.path.join(BASE_DIR, "regression_model.pkl")
+REGRESSION_MODEL_PATH = os.path.join(BASE_DIR, "shap_weighted_models.pkl")
 
 # Загрузка моделей
 classification_model = joblib.load(CLASSIFICATION_MODEL_PATH)
